@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Page Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+   
+     <div class="container">
+        <form name="form" (ngSubmit)="f.form.valid && onSubmit()">
+        <div class="col-sm-6 offset-md-3">
+       <h1>Registration</h1>
+       <!--Mrsmr Coding Start-->
+        <input class="form-group" type="radio" name="radio" id="mrs" required>
+       <label class="radio-inline" for="mrs">Mrs</label> &nbsp;
+       <input class="form-group" type="radio" name="radio" id="mr" required>
+       <label class="radio-inline" for="mr">Mr</label>
+       <!--Mrsmr Coding Cloaed-->
+       <br>
+       <!--Username Coding Start-->
+       <label for="usr">Username</label>
+       <input class="form-control" type="text" name="username" id="usr" placeholder="Username" required>
+       <!--Username Codiing  Closed-->
+       <!--Firstname Coding Start-->
+       <label for="firstn">Firstname</label>
+       <input class="form-control" type="text" name="firstname" id="firstn" placeholder="Firstname" required>
+
+       <!--Firstname Codiing  Closed-->
+       <!--Lastname Coding Start-->
+       <label for="lstnm">Lastname</label>
+       <input class="form-control" type="text" name="lastname" id="lstnm" placeholder="Lastname"required>
+       <!--Lastname Codiing  Closed-->
+       <!--Email Coding Start-->
+       <label for="email">Email</label>
+       <input class="form-control" type="email" name="email" id="email" placeholder="Email"required>
+       <!--Email Codiing  Closed-->
+       <!--Number Coding Start-->
+       <label for="nmbr">Number</label>
+       <input class="form-control" type="number" name="number" id="nmbr" placeholder="Number"  required minlength="5" [(ngModel)]="data.name">
+       <div class="form-group">
+         <div *ngIf="name.invalid && (name.dirty || name.touched)" class="alert alert-danger">
+           <div *ngIf="name.errors.required">
+             Name Is Required.
+           </div>
+           <div *ngIf="name.errors.number">
+             Must Be A Name.
+           </div>
+         </div>
+       </div>
+       <!--Number Codiing  Closed-->
+       <!--Password Coding Start-->
+       <label for="pswd">Password</label>
+       <input class="form-control" type="password" name="password" id="pswd" placeholder="Password" required>
+       <!--Password Codiing  Closed-->
+       <!--Confirm-Password Coding Start-->
+       <label for="cpswd">Confirm-Password</label>
+       <input class="form-control" type="password" name="cpswd" id="cpswd" placeholder="Confirm-Password" required>
+       <!--Confirm-Password Codiing  Closed-->
+       <!--Gender Coding Start-->
+       <label for="gnd">Gender</label>
+       <select name="select" id="gnd" class="form-control">
+         <option value="select">Select</option>
+         <option value="male">Male</option>
+         <option value="female">Female</option>
+       </select>
+       <!--Gender Codiing  Closed-->
+       <!--Birthdate Coding Start-->
+       <label for="brth">Select-Birthdate :</label>
+       <input class="form-control" type="date" name="birthdate" id="brth" required>
+       <!--Birthdate Coding Closed-->
+       <!--Image Coding Start-->
+       <br>
+       <label>Upload Image</label>
+       <div class="input-group">
+           <span class="input-group-btn">
+               <span class="btn btn-default btn-file">
+                   Browse… <input type="file" id="imgInp">
+               </span>
+           </span>
+           <input type="text" class="form-control" readonly>
+       </div>
+       <img id='img-upload'/>
+       <!--Image Coding Closed-->
+       <!--Address Coding Start-->
+       <label for="ads">Address</label>
+       <textarea class="form-control" name="address" id="ads" cols="30" rows="10" placeholder="Addesss" required>
+       </textarea>
+       <!--Address Coding Closed-->
+       <br>
+       <!--Button Coding Start-->
+       <button type="submit" class="btn btn-primary" [disabled]="f.form.pristine || f.form.invalid">Registre..</button>
+       <!--Button Coding Closed-->
+      </div>
+    </form>
+     </div>
+   
+
+
+</body>
+</html>
