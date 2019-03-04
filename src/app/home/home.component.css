@@ -1,0 +1,42 @@
+.video-fluid {
+    width: 50%;
+    height: 500px;
+  }
+  h1{
+    padding-left: 50px;
+  }
+
+  .center-container {
+    height:100%;
+    display: table;
+    width:100%;
+    margin:0;
+  }
+  
+  .center-row {
+    height:50%;
+    width:100%;
+    display: table-row;
+  }
+    
+  .center-row > div {
+    height:100%;
+    width:50%;
+    display: table-cell;
+    border:0 solid #eee;
+    color:#fff;
+    vertical-align:middle;
+  }
+  
+  .bg-one {
+    background:#efefef url('/assets/example/bg_suburb.jpg');
+  }
+  .bg-two {
+    background:#efefef url('/assets/example/bg_dogcat.jpg');
+  }
+  .bg-three {
+    background:#efefef url('/assets/example/bg_blueplane.jpg');
+  }
+  .bg-four {
+    background:#efefef url('/assets/example/bg1.jpg');
+  }
