@@ -7,6 +7,7 @@ import { EnvironmentComponent } from './environment/environment.component';
 import { InnovationComponent } from './innovation/innovation.component';
 import { CommunityComponent } from './community/community.component';
 import { CallComponent } from './call/call.component';
+import { TryComponent } from './try/try.component';
 
 const routes: Routes = [
   {path: '', component:HomeComponent},
@@ -15,7 +16,8 @@ const routes: Routes = [
   {path: 'environment', component: EnvironmentComponent},
   {path: 'innovation', component: InnovationComponent},
   {path: 'community', component: CommunityComponent},
-  {path: 'call', component: CallComponent}
+  {path: 'call', component: CallComponent},
+  {path: 'trys', component: TryComponent}
 ];
 
 @NgModule({

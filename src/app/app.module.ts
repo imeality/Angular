@@ -4,7 +4,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { HashLocationStrategy, LocationStrategy } from "@angular/common";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
-import { ApiService } from "./service/api.service";
+import { ApiService } from './Service/api.service';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -16,6 +16,7 @@ import { InnovationComponent } from './innovation/innovation.component';
 import { CommunityComponent } from './community/community.component';
 import { CallComponent } from './call/call.component';
 import { HomeComponent } from './home/home.component';
+import { TryComponent } from './try/try.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { HomeComponent } from './home/home.component';
     CommunityComponent,
     CallComponent,
     HomeComponent,
+    TryComponent,
   ],
   imports: [
     BrowserModule,
