@@ -1,14 +1,13 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { HttpClientModule } from '@angular/common/http';
+import { HttpClientModule, HttpRequest, HttpHandler } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { HashLocationStrategy, LocationStrategy } from "@angular/common";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
-import { ApiService } from './Service/api.service';
+
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { LoginComponent } from './login/login.component';
 import { RegistrationComponent } from './registration/registration.component';
 import { NavComponent } from './nav/nav.component';
 import { EnvironmentComponent } from './environment/environment.component';
@@ -17,11 +16,13 @@ import { CommunityComponent } from './community/community.component';
 import { CallComponent } from './call/call.component';
 import { HomeComponent } from './home/home.component';
 import { TryComponent } from './try/try.component';
+import { LoginComponent } from './login/login.component';
+
+import { SlimLoadingBarModule } from "ng2-slim-loading-bar";
 
 @NgModule({
   declarations: [
     AppComponent,
-    LoginComponent,
     RegistrationComponent,
     NavComponent,
     EnvironmentComponent,
@@ -30,6 +31,8 @@ import { TryComponent } from './try/try.component';
     CallComponent,
     HomeComponent,
     TryComponent,
+    LoginComponent,
+   
   ],
   imports: [
     BrowserModule,
@@ -37,10 +40,10 @@ import { TryComponent } from './try/try.component';
     HttpClientModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    SlimLoadingBarModule
 
   ],
   providers: [
-    ApiService,
     {provide: LocationStrategy, useClass: HashLocationStrategy}
   ],
   bootstrap: [AppComponent]

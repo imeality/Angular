@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ApiService } from "./Service/api.service";
+
 import { comments } from "./classes/comments";
 
 @Component({
@@ -10,7 +10,7 @@ import { comments } from "./classes/comments";
 export class AppComponent {
   title = 'cmsprjct';
 
-  constructor(private _ApiService: ApiService) {}
+  constructor() {}
 
     stcomments:comments[];
 

@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
+  {{trys}}
     <h1>My-Users</h1>
     <div>
       <table style="width: 100%">
@@ -16,11 +17,12 @@
         <th>Last-Name</th>
         <th>Email</th>
       </tr>
+        
       <tr *ngFor="let try of trys">
-        <td> {{username}} </td>
-        <td> {{firstname}} </td>
-        <td> {{lasstname}} </td>
-        <td> {{email}} </td>
+        <td> {{try.username}} </td>
+        <td> {{try.firstname}} </td>
+        <td> {{try.lasstname}} </td>
+        <td> {{try.email}} </td>
       </tr>
       </table>
     </div>

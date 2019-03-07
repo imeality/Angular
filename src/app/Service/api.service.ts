@@ -10,6 +10,6 @@ export class ApiService {
   API_URL = 'http://localhost:1200';
   constructor(private httpClient: HttpClient) {}
   getTrys(){
-    return this.httpClient.get('${this.API_URL}/trys');
+    return this.httpClient.get('${this.API_URL}/api/subadmin/sear/:id');
   }
 }
