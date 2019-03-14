@@ -7,72 +7,189 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-  <!--Nav Coding Start-->
-  <div class="navbar navbar-expand-sm bg-light">
-    <ul class="navbar-nav">
-       <!--Environment Coding Start-->
-        <li class="nav-item">
-          <a id="fnt" routerLink="environment" class="nav-link">ENVIRONMENT</a>
-        </li>
-       <!--Environment Coding Closed-->
-
-       <!--Community Coding Start-->
-       <li class="nav-item">
-          <a id="fnt" routerLink="community" class="nav-link">COMMUNITY</a>
-        </li>
-
-       <!--Community Coding Closed-->
-
-       <!--Innovation Coding Start-->
-       <div class="dropdown">
-            <li class="nav-item">
-              <a id="fnt" routerLink="innovation" class="nav-link" routerLinkActive="active">INNOVATION</a>
-              <div class="dropdown-content">
-                  <a id="fnt1" routerLink="#">TEXTILE ADVANCEMENTS</a>
-                  <a id="fnt1" routerLink="#">INFLUENCERS</a>
-              </div>
-            </li>
+  <!--Header Coding Start-->
+  
+      <div class="header">
+          <div class="header-right">
+           <ul>
+             <li><a href="">Ask an Expert</a></li>
+             <li><a href="">Contribution</a></li>
+             <li><a href="">About Us</a></li>
+           </ul>
+        </div>
+        </div>
+ 
+  <!--Header Coding closed-->
+  <!--Navbar Coding Start-->
+   <!--Nav Coding Start-->
+   <mat-toolbar id="primaryToolbar" color="warn"
+   [ngClass]="{'mat-elevation-z5' : true, 'sticky' : isSticky}">
+       <div class="container-fluid">
+         <div class="list-arng">
+          <ul class="nav justify-content-end">
+              <li class="nav-item">
+                <a class="nav-link" href="#">ENVIRONMENT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">COMMUNITY</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">INNOVATION</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">CALL TO ACTION</a>
+              </li>
+            </ul>
           </div>
+       </div>
+          </mat-toolbar> 
 
-       <!--Innovation Coding Closed-->
 
-       <!--Call-To-Action Coding Start-->
-       <div class="dropdown">
-        <li class="nav-item">
-          <a id="fnt" routerLink="call" class="nav-link">CALL TO ACTION</a>
-          <div class="dropdown-content">
-              <a id="fnt1" routerLink="#">DONATE</a>
-              <a id="fnt1" routerLink="#">FASHION MOVEMENTS</a>
-              <a id="fnt1" routerLink="#">SHARING ECONOMY</a>
-              <a id="fnt1" routerLink="#">SHOP ECOFRIENDLY</a>
-              <a id="fnt1" routerLink="#">SHOP ECTHICAL</a>
-              <a id="fnt1" routerLink="#">START IN YOUR HOME</a>
-            </div>
-        </li>
+
+     <!--Nav Coding Closed-->
+  
+  <!--Navbar Coding Closed-->
+  <!--Text-With Video Coding Start-->
+  <video class="video-fluid z-depth-1" autoplay loop controls muted>
+      <source src="./assets/images/video.mp4" type="video/mp4">
+    </video>
+    <div class="vidtxt">
+    <div class="txt">
+        <p class="newp">The textile life-cycle has <br> harmful impacts on our</p>
+      <h4 class="newpp">environment & global <br> communities. </h4> 
+    </div>
+    <div class="whthr"></div>
+
+    <p class="knw">KNOWLEDGE EMPOWERS US <br> TO CHANGE THE WITHERING <br> FABRIC OF THE OUR WORLD.</p>
+    </div>
+  <!--Text-With Video Coding CLosed-->
+  <!--Image Text Coding Start-->
+  <div class="">
+  <img src="./assets/images/1.jpg" alt="Img" width="100%" height="350px">
+  <div class="row">
+      <div class="col-sm">
+          <p class="imgtxt">The textile & fashion industry is the 2nd largest polluter in <br> the world after oil.</p>
+          <div class="hrimg"></div>
       </div>
-       <!--Call-To-Action Coding Closed-->
-
-       <!--Logo Coding Start-->
-      <a routerLink="home">
-        <img src="./assets/images/logo.png" alt="Fabric Of The World">
-      </a>
-       <!--Logo Coding Closed-->
-       &nbsp;
-       <!--gylphicons Coding Start-->
-       
-        <i class="fa fa-search"></i> 
-       <a href=""><p class="ask">Ask An Expert</p></a>
-       <a href=""><p class="ask">Contribution</p></a>
-       <a href=""><p class="ask">About Us</p></a> &nbsp; &nbsp;
-       <a href="https://www.facebook.com/fabricoftheworld/"> <i class="fa fa-facebook"></i> </a> &nbsp; &nbsp;
-       <a href="https://www.instagram.com/fabricoftheworld/"> <i class="fa fa-instagram"></i> </a>
-
-       <!--Gylphicons Coding Closed-->
-    </ul>
+      <div class="col-sm">
+          <p class="imgtxt">Its malpractices harm our environment and global <br> communities.</p>
+          <div class="hrimg"></div>
+      </div>
   </div>
-   <!--Nav Coding Closed-->
+  <div class="imgdv">
+  </div>
+</div>
+  <!--Image Yext Coding Closed-->
+  <!--hr coding Start-->
+  <div class="hrdv2"></div>
+  <!--hr coding Closed-->
+  <!--Trending Coding Start-->
+  <div class="container-fluid">
+  <h4 class="trend">TRENDING</h4>
+  <div class="trndv"></div>
+</div>
+  <!--Trending Coding Closed-->
+   <!--Image Grid Coding Start-->
+  <div class="container-fluid">
+    <div class="row">
+          <div class="col-md-4">
+              <a href="#">
+                <img id="imghover" src="assets/images/footer9.jpg" class="img-fluid">
+                <p class="foot9">TEXTILE INNOVATIONS</p>
+                <h6 class="fot9">What is Non-Violent or Ahimsa Silk ?</h6>
+              </a>
+            </div>
 
+            <div class="col-md-4">
+                <a href="#">
+                  <img id="imghover" src="assets/images/footer2.jpg" class="img-fluid">
+                  <p class="foot9">TEXTILE INNOVATIONS</p>
+                  <h6 class="fot9">All You Need To Know About Natural Dyes</h6>
+                </a>
+              </div>
 
+              <div class="col-md-4">
+                  <a href="#">
+                    <img id="imghover" src="assets/images/footer13.jpg" class="img-fluid">
+                    <p class="foot9">TEXTILE INNOVATIONS</p>
+                    <h6 class="fot9">Support Your Local Textile Industry Because…</h6>
+                  </a>
+                </div>
+    </div>
+  </div>
+  <!--Image Grid Coding Closed-->
+  <!--Image Slider Coding Start-->
+  <!--Carousel Wrapper-->
 
+  <!--/.Carousel Wrapper-->
+  <!--Image Slider Coding Closed-->
+  <!--Exprt line Coding start-->
+ <a href=""> <div class="line"></div></a>
+  <!--Exprt line Coding Closed-->
+  <!--Expert Row Coding Start-->
+  <a href="">
+     <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-4" style="background-color:#20a19c;">
+              <img id="imgcr" class="rounded-circle" src="assets/images/expert.png" alt="expert.png" width="150" height="150" >
+             <h3 class="held">Helen D’Silver</h3>
+             <p class="hel">ENTREPRENEUR & ATTORNEY
+                 <br>
+                environment & sustainability</p>
+            </div>
+       
+            <div class="col-sm-4" style="background-color:#f2f2f2;">
+              <h3 class="h3div">ASK AN EXPERT</h3>
+              <p class="asks">Ask me anything to do with <br> textile and fashion <br> sustainability</p>
+              <div class="smlhr"></div>
+            </div>
+            <div class="col-sm-4" style="background-color:#ffffff;">
+             <p class="quete">Awareness is the first and most effective <br> step to solving the issue of textile and <br> fashion sustainability</p>
+            </div>
+          </div>
+     </div>
+    </a>
+    <!--Image Slider Coding Start-->
+    <slideshow [imageUrls]="imageUrlArray"></slideshow>
+    <!--Image Slider Coding Closed-->
+  <!--Expert Row Coding Closed-->
+  <!--Green div Coding Start-->
+  <div class="divgreen"></div>
+  <!--Green div Coding Closed-->
+  <!--Footer Coding Start-->
+  <footer>
+    <div class="container-fluid">
+    <div class="row">
+        <div class="column">
+            <h2><img src="./assets/images/logo.png" alt="logo-image"></h2>
+          <p class="p1">is a community of thought leaders who support textile & fashion sustainability.Our aim is to create awareness and inspire changes the textile life-cycle.
+                                    <br>
+              The Fabric of our World relies on us to work collectively to solve this global issue.</p>
+        </div> &nbsp; &nbsp; &nbsp; &nbsp; 
+        
+        <div class="column">
+          <h2>Explore</h2>
+          <p><a href="about">ABOUT</a></p>
+          <P><a href="innovation">INNOVATION</a></P>
+          <P><a href="community">COMMUNITY</a></P>
+          <P><a href="environment">ENVIRONMENT</a></P>
+          <P><a href="call">CALL TO ACTION</a></P>
+        </div>
+        
+        <div class="column">
+          <h2>Connect</h2>
+          <p><a href="contribution">CONTRIBUTION</a></p>
+          <P><a href="contact">CONTACT US</a></P>
+          <P><a href="ask">ASK AN EXPERT</a></P>
+        </div>
+
+        <div class="column">
+            <h2>Follow Us</h2>
+            <p></p>
+          </div>
+      </div>
+    </div>
+  </footer>
+    <!--Footer Coding Closed-->
 </body>
-</html> 
+</html>

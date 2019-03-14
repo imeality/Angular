@@ -1,23 +1,10 @@
 import { Component } from '@angular/core';
 
-import { comments } from "./classes/comments";
-
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
-})  
+})
 export class AppComponent {
-  title = 'cmsprjct';
-
-  constructor() {}
-
-    stcomments:comments[];
-
-   ngOnInit() {
-
-       
-      
-   }
-
+  title = 'cms-Frontend';
 }
