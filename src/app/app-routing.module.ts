@@ -11,7 +11,7 @@ import { AskComponent } from './ask/ask.component';
 import { NavComponent } from './nav/nav.component';
 
 const routes: Routes = [
-  {path: 'home', component: HomeComponent},
+  {path: '', component: HomeComponent},
   {path: 'environment', component: EnvironmentComponent},
   {path: 'innovation', component: InnovationComponent},
   {path: 'call', component: CallComponent},
