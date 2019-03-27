@@ -15,6 +15,10 @@ import { AboutComponent } from './about/about.component';
 import { AskComponent } from './ask/ask.component';
 import { ContributionComponent } from './contribution/contribution.component';
 import { MatButtonModule, MatCheckboxModule, MatToolbarModule, MatChipsModule, MatOptionModule, MatGridListModule, MatProgressBarModule, MatSliderModule, MatSlideToggleModule, MatMenuModule, MatDialogModule, MatSnackBarModule, MatSelectModule, MatInputModule, MatSidenavModule, MatCardModule, MatIconModule, MatRadioModule, MatProgressSpinnerModule, MatTabsModule, MatListModule } from '@angular/material';
+import { NgxPaginationModule } from "ngx-pagination";
+import { Environmentpage2Component } from './environmentpage2/environmentpage2.component';
+import { Environmentpage3Component } from './environmentpage3/environmentpage3.component';
+import { Environmentpage4Component } from './environmentpage4/environmentpage4.component';
 
 
 @NgModule({
@@ -29,7 +33,10 @@ import { MatButtonModule, MatCheckboxModule, MatToolbarModule, MatChipsModule, M
     InnovationComponent,
     AboutComponent,
     AskComponent,
-    ContributionComponent
+    ContributionComponent,
+    Environmentpage2Component,
+    Environmentpage3Component,
+    Environmentpage4Component
   ],
   imports: [
     BrowserModule,
@@ -55,7 +62,8 @@ import { MatButtonModule, MatCheckboxModule, MatToolbarModule, MatChipsModule, M
     MatRadioModule, 
     MatProgressSpinnerModule, 
     MatTabsModule,
-    MatListModule
+    MatListModule,
+    NgxPaginationModule
   ],
   providers: [],
   bootstrap: [AppComponent]

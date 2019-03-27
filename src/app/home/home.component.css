@@ -123,14 +123,65 @@
 }
 .keeping{
   height: 350px;
-  width: 29%;
+  width: 64.4%;
   border: 3px solid #8cc63f;
-  z-index: 10;
   float: right;
   left: 20px;
+  margin-top: -325px;
+}
+.bring-text{
+  width: 560px;
+  margin-left: 40px;
+  margin-top: 50px;
+}
+.bring-shoe{
+  font-size: 20px;
+  font-weight: 900;
+  color: #000;
+  font-family: "Raleway", Arial, Tahoma, sans-serif;
+}
+.singapur{
+  font-family: Georgia, serif;
+    color: #000;
+    font-size: 17px;
+}
+.btn{
+  background: #20a19c;
+  border-radius: 25px;
+  font-size: 15px;
+  color: white;
+  margin: 20px;
+}
+.btn:hover{
+  color: black;
+}
+.ins-keep{
+  height: 293px;
+  width: 475px;
+  float: right;
+  
 }
 .keeping:hover{
   border-color: #20a19c;
+}
+.keep-text{
+  font-size: 20px;
+  font-weight: 900;
+  color: #000;
+  font-family: "Raleway", Arial, Tahoma, sans-serif;
+}
+.like{
+  font-family: Georgia, serif;
+  color: #000;
+  font-size: 17px;
+}
+.keep-box{
+  width: 580px;
+  margin: 85px;
+  float: right;
+}
+#btnn{
+ float: right;
 }
 .bringing{
   height: 300px;
@@ -138,25 +189,32 @@
   border: 3px solid #8cc63f;
   z-index: 14;
 }
-.bringing-1{
-  height: 150px;
-  width: 540px;
-  padding: 60px;
-}
-.bringing-2{
-
-}
 .bringing:hover{
   border-color: #20a19c;
 }
-.bring-css a{
-  font-size: 20px;
-  font-weight: 900;
-  color: #000;
-  font-family: "Raleway", Arial, Tahoma, sans-serif;
-}
+
 /*Get Inspired Coding Closed*/
 
+/*Most Viewed Coding Start*/
+.mostviewed-image{
+  padding: 40px;
+  margin-left: 40px;
+}
+.clsh2{
+  font-weight: 549;
+  font-family: "Raleway", Arial, Tahoma, sans-serif;
+  font-size: 15px;
+  color: #737373;
+  letter-spacing: 2px;
+}
+.viewed-line{
+  height: 5px;
+  width: 60px;
+  background: #8cc63f;
+}
+
+
+/*Most Viewed Coding Closed*/
 /*Image Slider Coding Start*/
 /*Image Slider Coding Closed*/
 
