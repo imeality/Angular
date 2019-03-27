@@ -1,0 +1,131 @@
+.img-txt{
+    background: url("/assets/images/calltoaction.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    color: #fff;
+    height: 650px;
+    padding-top: 80px;
+    padding-left: 200px;
+    z-index: 99999;
+}
+
+/*Grid Image Pagination Coding Start*/
+ .griid{
+     padding-left: 85px;
+     padding-right: 85px;
+     height: 1850px; 
+ }
+ .img-hovr:hover{
+     border: 2px solid #8fbc3c;
+ }
+ .img-hovr{
+    border: 2px solid #fff;
+}
+.env{
+    color: #b1b1b1;
+    font-weight: 548;
+    font-family: "gotham", Arial, Tahoma, sans-serif;
+    font-size: 11px;
+}
+.env-txt{
+    font-family: Georgia, serif;
+    color: #000;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+}
+.env a{
+    color: #b1b1b1;
+}
+.env a:hover{
+    color: #8fbc3c;
+}
+.container{
+  height: 20px;
+  text-align: center;
+}
+
+.pagination {
+  text-align: center;
+}
+
+.pagination a {
+  color: #A9A9A9;
+  text-align: center;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border-radius: 50%;
+  margin: 0 4px;
+}
+.pagination a:hover{
+  color: black;
+}
+.active{
+  border: 1px solid silver;
+  border-radius: 30%;
+}
+ /*Grid Image Pagination Coding Closed*/
+
+
+/*Footer Style Start*/
+footer{
+    background-color: #231f21;
+    height: 500px;
+  }
+  .footer-txt{
+    color: white;
+  }
+  .footer-img{
+    width: 400px;
+  }
+  #id1{
+    height: 100px;
+    float: right;
+  }
+  #id2{
+    height: 100px;
+    float: right;
+  }
+  #id3{
+    height: 100px;
+    float: right;
+  }
+  .idd1{
+    text-align: center;
+  }
+  .idd2{
+    text-align: center;
+  }
+  .idd3{
+    text-align: center;
+  }
+  .menu1{
+    font-size: 12px;
+  }
+  h2{
+    font-size: 30px;
+    line-height: 34px;
+    font-weight: 300;
+    letter-spacing: 0px;
+    font-family: "Raleway", Arial, Tahoma, sans-serif;
+    font-weight: 900;
+    color: #ffffff;
+  }
+  .menu1{
+    font-size: 13px;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  .col-sm-8{
+    float: right;
+    text-align: center;
+    bottom: 250px;
+  }
+  .fot-dv1{
+    padding: 35px;
+    text-align: center;
+  }
+  /*Footer Style Closed*/

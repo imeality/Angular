@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { SlideshowModule } from "ng-simple-slideshow";
+import { AngularFontAwesomeModule } from "angular-font-awesome";
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -19,6 +20,9 @@ import { NgxPaginationModule } from "ngx-pagination";
 import { Environmentpage2Component } from './environmentpage2/environmentpage2.component';
 import { Environmentpage3Component } from './environmentpage3/environmentpage3.component';
 import { Environmentpage4Component } from './environmentpage4/environmentpage4.component';
+import { Communitypage2Component } from './communitypage2/communitypage2.component';
+import { Communitypage3Component } from './communitypage3/communitypage3.component';
+import { Innovationpage2Component } from './innovationpage2/innovationpage2.component';
 
 
 @NgModule({
@@ -36,11 +40,15 @@ import { Environmentpage4Component } from './environmentpage4/environmentpage4.c
     ContributionComponent,
     Environmentpage2Component,
     Environmentpage3Component,
-    Environmentpage4Component
+    Environmentpage4Component,
+    Communitypage2Component,
+    Communitypage3Component,
+    Innovationpage2Component
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    AngularFontAwesomeModule,
     SlideshowModule,
     MatButtonModule,
     MatCheckboxModule,

@@ -100,6 +100,9 @@
   pointer-events: block;
   display: block;
 }
+.img-hvr{
+  border: 2px solid #fff;
+}
 .title-post{
   font-family: Georgia, serif;
   text-decoration: none;

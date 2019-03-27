@@ -2,7 +2,7 @@
 .img-fluid{
     z-index: 99999;
 }
-h2{
+.h2-1{
     color: #e05826;
     font-size: 67px;
     font-weight: 900;
@@ -20,7 +20,7 @@ h2{
     color: #fff;
     height: 650px;
     padding-top: 80px;
-    padding-left: 170px;
+    padding-left: 200px;
     z-index: 99999;
 }
 .p-size{
@@ -33,7 +33,7 @@ h2{
     font-family: "Raleway", Arial, Tahoma, sans-serif;
 }
 .hrln{
-    width: 1.6em;
+    width: 7em;
     height: 7px;
     background: #e05826;
 }
@@ -91,6 +91,10 @@ a{
 }
 .pagination a:hover{
   color: black;
+}
+.active{
+  border: 1px solid silver;
+  border-radius: 30%;
 }
  /*Grid Image Pagination Coding Closed*/
 
