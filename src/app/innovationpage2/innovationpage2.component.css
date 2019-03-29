@@ -46,10 +46,11 @@
      height: 750px; 
  }
  .img-hovr:hover{
-     border: 2px solid #8fbc3c;
+     border: 3px solid #8fbc3c;
+     transition: 0.5s;
  }
  .img-hovr{
-    border: 2px solid #fff;
+    border: 3px solid #fff;
 }
 .env{
     color: #b1b1b1;
@@ -112,6 +113,10 @@ footer{
   }
   .footer-txt{
     color: white;
+    text-align: left;
+    font-family: Georgia, serif;
+    color: #cccccc;
+    font-size: 17px;
   }
   .footer-img{
     width: 400px;
@@ -127,6 +132,26 @@ footer{
   #id3{
     height: 100px;
     float: right;
+  }
+  .idd1 li a{
+    float: left;
+    border: 1px solid #fff;
+    border-radius: 67%;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 26px;
+    color: #fff !important;
+    margin-right: 7px;
+  }
+  .social{
+    position: absolute;
+  }
+  #socil{
+    float: right;
+    margin-left: -50px;
+    margin-top: -23px;
   }
   .idd1{
     text-align: center;
@@ -160,7 +185,8 @@ footer{
     bottom: 250px;
   }
   .fot-dv1{
-    padding: 35px;
+    padding-top: 100px;
     text-align: center;
+    margin-left: 40px;
   }
   /*Footer Style Closed*/

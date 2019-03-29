@@ -46,16 +46,17 @@
      height: 1850px; 
  }
  .img-hovr:hover{
-     border: 2px solid #8fbc3c;
+     border: 3px solid #8fbc3c;
+     transition: 0.5s;
  }
  .img-hovr{
-    border: 2px solid #fff;
+    border: 3px solid #fff;
 }
 .env{
-    color: #b1b1b1;
-    font-weight: 548;
-    font-family: "gotham", Arial, Tahoma, sans-serif;
-    font-size: 11px;
+  color: #b1b1b1;
+  font-weight: 400;
+  font-family: "gotham", Arial, Tahoma, sans-serif;
+  font-size: 11px;
 }
 .env-txt{
     font-family: Georgia, serif;
@@ -72,7 +73,7 @@ a{
     color: #8fbc3c;
 }
 .container{
-  height: 20px;
+  height: 40px;
   text-align: center;
 }
 
@@ -86,15 +87,14 @@ a{
   padding: 8px 16px;
   text-decoration: none;
   transition: background-color .3s;
-  border-radius: 50%;
   margin: 0 4px;
 }
 .pagination a:hover{
   color: black;
 }
-.active{
+.activeaa{
   border: 1px solid silver;
-  border-radius: 30%;
+  border-radius: 67%;
 }
  /*Grid Image Pagination Coding Closed*/
 
@@ -112,6 +112,10 @@ footer{
   }
   .footer-txt{
     color: white;
+    text-align: left;
+    font-family: Georgia, serif;
+    color: #cccccc;
+    font-size: 17px;
   }
   .footer-img{
     width: 400px;
@@ -128,6 +132,26 @@ footer{
     height: 100px;
     float: right;
   }
+  .idd1 li a{
+    float: left;
+    border: 1px solid #fff;
+    border-radius: 67%;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 26px;
+    color: #fff !important;
+    margin-right: 7px;
+  }
+  .social{
+    position: absolute;
+  }
+  #socil{
+    float: right;
+    margin-left: -50px;
+    margin-top: -23px;
+  }
   .idd1{
     text-align: center;
   }
@@ -143,11 +167,11 @@ footer{
   h2{
     font-size: 30px;
     line-height: 34px;
-    font-weight: 300;
     letter-spacing: 0px;
     font-family: "Raleway", Arial, Tahoma, sans-serif;
     font-weight: 900;
     color: #ffffff;
+    margin-bottom: 15px;
   }
   .menu1{
     font-size: 13px;
@@ -160,7 +184,8 @@ footer{
     bottom: 250px;
   }
   .fot-dv1{
-    padding: 35px;
+    padding-top: 100px;
     text-align: center;
+    margin-left: 40px;
   }
   /*Footer Style Closed*/

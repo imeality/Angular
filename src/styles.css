@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face{
+    font-family: gotham;
+    src: url("/assets/fonts/gm.woff");
+  }
+
+@font-face{
+  font-family: sd_georgia;
+  src: url("/assets/fonts/sd_g.woff");
+}
+@font-face{
+  font-family: Tahoma;
+  src: url("/assets/fonts/Tahoma.ttf");
+}
+

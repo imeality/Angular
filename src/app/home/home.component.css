@@ -1,42 +1,76 @@
 /*Text With Video Coding Start*/
 .vidtxt{
   width: 625px;
-  height: 730px;
+  height: 720px;
   background: #0a0101;
   float: right;
 }
 .newp{
-  color: white;
-  font-style: italic;
+  line-height: 52px;
+  color: #fff;
+  font-family: "sd_georgia", Arial, Tahoma, sans-serif;
+  margin: 0 0 15px;
   font-size: 31px;
-  font-family: "PT Sans", Arial, Tahoma, sans-serif;
-  text-align: center;
-  margin-top: 80px;
-  padding: 10px;
+  text-align: left;
+  margin-top: 160px;
+  margin-left: 23%;
+
 }
 .newpp{
   color: #20a19c;
-  font-family: Tahoma;
-  font-style: italic;
-  font-weight: 500;
-  text-align: center;
+  font: inherit;
+  font-family: "sd_georgia", Arial, Tahoma, sans-serif;
+  font-weight: 800;
+  text-align: left;
+  margin-left: 23%;
   font-size: 31px;
+  line-height: 52px;
+  margin-top: -15px;
+}
+.ampersand{
+  font-family: "gotham", Arial, Tahoma, sans-serif;
+	      font-style: italic;
+	     font-weight:500;
 }
 .whthr{
-  height: 10px;
-  width: 55%;
+  height: 12px;
+  width: 51%;
+  margin-top: -5px;
   background: white;
-  margin-left: 150px;
+  margin-left: 143px;
 }
 .knw{
   text-align: center;
-  color: #fff;
-  padding: 10px;
   font-size: 23px;
-  font-weight: 500;
+  text-align: left;
   font-family: "Raleway", Arial, Tahoma, sans-serif;
+  font-weight: 600;
   line-height: 31px;
-  
+  color: #fff;
+  margin-top: -20px;
+}
+.knw-2{
+  width: 350px;
+  margin-left: 9em;
+}
+.quot-1{
+  content: "";
+  height: 28px;
+  width: 34px;
+  display: block;
+  position: relative;
+  left: -33px;
+  top: -1px;
+}
+.quot-2{
+    content: "";
+    height: 28px;
+    width: 34px;
+    display: block;
+    position: relative;
+    right: -15px;
+    bottom: 45px;
+    float: right;
 }
 /*Text With Video Coding Closed*/
 
@@ -49,14 +83,17 @@
 .img-crop{
   height: 340px;
   width: 100%;
+  margin-top: -7px;
 }
 .imgtxt{
-  font-size: 23px;
-  font-family: "PT Sans", Arial, Tahoma, sans-serif;
-  color: #ffffff;
-  margin-top: -200px;
-  margin-left: 12em;
-  font-weight: 900;
+  font-size: 25px;
+  font-family: "Raleway", Arial, Tahoma, sans-serif;
+  color: #fff;
+  letter-spacing: 0.01px;
+  margin-top: -250px;
+  margin-left: 11em;
+  line-height: 37px;
+  font-weight: bold;
 }
 .hrimg{
   background: #e05826;
@@ -88,6 +125,8 @@
 }
 .grid-imgg{
   height: 600px;
+  padding-left: 70px;
+  padding-right: 70px; 
 }
 .grid-text{
   color: #b1b1b1;
@@ -96,12 +135,13 @@
   font-size: 11px;
 }
 .img-hvr:hover{
-  border: 2px solid #8cc63f;
+  border: 3px solid #8cc63f;
   pointer-events: block;
   display: block;
+  transition: 0.5s;
 }
 .img-hvr{
-  border: 2px solid #fff;
+  border: 3px solid #fff;
 }
 .title-post{
   font-family: Georgia, serif;
@@ -110,17 +150,17 @@
   font-size: 20px;
 }
 .clsh1{
-  font-weight: 549;
+  font-weight: 600;
   font-family: "Raleway", Arial, Tahoma, sans-serif;
   font-size: 15px;
   color: #737373;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 /*Trending+Image Grid CSS Closed*/
 
 /*Get Inspired Coding Start*/
 .inspired-div{
-  height: 293px;
+  height: 299px;
   width: 100%;
   background: #f2f2f2;
 }
@@ -150,10 +190,15 @@
 }
 .btn{
   background: #20a19c;
-  border-radius: 25px;
-  font-size: 15px;
-  color: white;
-  margin: 20px;
+  color: #fff;
+  font-size: 17px;
+  padding: 2px 10px;
+  border-radius: 23px;
+  margin: 14px 2px 27px;
+  display: inline-block;
+}
+#btt{
+  margin-left: 40px;
 }
 .btn:hover{
   color: black;
@@ -166,6 +211,7 @@
 }
 .keeping:hover{
   border-color: #20a19c;
+  transition: 0.5s;
 }
 .keep-text{
   font-size: 20px;
@@ -178,24 +224,37 @@
   color: #000;
   font-size: 17px;
 }
+
 .keep-box{
-  width: 580px;
+  width: 590px;
   margin: 85px;
   float: right;
+  margin-top: -8em;
 }
 #btnn{
  float: right;
 }
 .bringing{
-  height: 300px;
+  height: 299px;
   width: 61%;
   border: 3px solid #8cc63f;
   z-index: 14;
 }
 .bringing:hover{
   border-color: #20a19c;
+  transition: 0.5s;
 }
-
+.get-inspired{
+  margin: 10px;
+  margin-top: 100px;
+  padding-left: 2%;
+  font-size: 50px;
+  color: #fff;
+  font-family: "Raleway", Arial, Tahoma, sans-serif;
+  font-weight: 900;
+  width: 200px;
+  z-index: 99999;
+}
 /*Get Inspired Coding Closed*/
 
 /*Most Viewed Coding Start*/
@@ -204,19 +263,17 @@
   margin-left: 40px;
 }
 .clsh2{
-  font-weight: 549;
+  font-weight: 600;
   font-family: "Raleway", Arial, Tahoma, sans-serif;
   font-size: 15px;
   color: #737373;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 .viewed-line{
   height: 5px;
   width: 60px;
   background: #8cc63f;
 }
-
-
 /*Most Viewed Coding Closed*/
 /*Image Slider Coding Start*/
 /*Image Slider Coding Closed*/
@@ -234,11 +291,15 @@
 /*Expert Row Css Start*/
 a{
   text-decoration: none;  
-  color: white;
+  color: white; 
+}
+.img-round{
+  border-radius: 50%;
+  margin-top: 35px;
 }
  .exprtadvc{
   height: 320px;
-  width: 100%;
+  width: 99%;
   background: #20a19c !important;
  }
  #col1{
@@ -254,13 +315,30 @@ a{
 }
 .hln-name{
   color: #fff;
-  font-weight: 540;
+  font-weight: 600;
   line-height: 28px;
   margin-bottom: 5px;
   font-size: 25px;
+  font-family: "Raleway", Arial, Tahoma, sans-serif;
+  text-align: center;
 }
 .hln-tag{
   font-size: 12px;
+  text-align: center;
+  color: #fff;
+  line-height: 18px;
+  font: inherit;
+  font-size: 13px;
+}
+.hln-tag-1{
+  text-align: center;
+  color: #fff;
+  margin: 0;
+  line-height: 18px;
+  font: inherit;
+  font-size: 14px;
+  margin-top: -17px;
+  
 }
 .expert-block{
   height: 75px;
@@ -300,8 +378,8 @@ h2.expert-block1{
 }
 .expert-textt{
   height: 75px;
-  width: 550px;
-  text-align: center;
+  width: 580px;
+  text-align: left;
   padding: 70px;
 }
 .expert-text{
@@ -314,6 +392,24 @@ h2.expert-block1{
   text-align: center;
   background: #ffffff;
   height: 320px;
+}
+.quot-3{
+  content: "";
+  height: 28px;
+  width: 34px;
+  display: block;
+  position: relative;
+  left: -33px;
+  top: 21px;
+}
+.quot-4{
+    content: "";
+    height: 28px;
+    width: 34px;
+    display: block;
+    position: relative;
+    left: 13em;
+    bottom: 28px;
 }
 /*Expert Row Css Closed*/
 
@@ -331,6 +427,10 @@ footer{
 }
 .footer-txt{
   color: white;
+  text-align: left;
+  font-family: Georgia, serif;
+  color: #cccccc;
+  font-size: 17px;
 }
 .footer-img{
   width: 400px;
@@ -346,6 +446,26 @@ footer{
 #id3{
   height: 100px;
   float: right;
+}
+.idd1 li a{
+  float: left;
+  border: 1px solid #fff;
+  border-radius: 67%;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 26px;
+  color: #fff !important;
+  margin-right: 7px;
+}
+.active{
+  position: absolute;
+}
+#activ{
+  float: right;
+  margin-left: -50px;
+  margin-top: -23px;
 }
 .idd1{
   text-align: center;
@@ -379,11 +499,11 @@ h2{
   bottom: 250px;
 }
 .fot-dv1{
-  padding: 35px;
+  padding-top: 100px;
   text-align: center;
+  margin-left: 40px;
 }
 /*Footer Style Closed*/
 
 /*Copyright CSS Start*/
 /*Copyright CSS Closed*/
-

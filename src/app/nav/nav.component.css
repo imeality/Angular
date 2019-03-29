@@ -6,17 +6,19 @@
 .header {
   overflow: hidden;
   background-color: #8fbc3c;
-  height: 3em;
+  height: 47px;
   position: static;
 
 }
 .header-column{
-  padding: 0px 72px !important;
+  padding: 0px 60px !important;
   box-sizing: border-box;
   margin-bottom: 0;
   overflow: hidden;
   width: 98%;
-  margin: 0 1% 40px;
+  margin: 0.10% 33px;
+  padding-right: -2px;
+  padding-left: 3px;
 }
 ul{
   list-style: none outside;
@@ -24,33 +26,61 @@ ul{
 }
 .contact_detail li a{
   float: right;
-  margin-left: 10px;
   color: #666;
   padding: 5px;
-  font-size: 12px;
-  font-weight: 600;
+  font-size: 11px;
+  font-family: "gotham", Arial, Tahoma, sans-serif;
+  margin-left: 6px;
+  margin-right: 3px;
 }
 a{
   text-decoration: none;
 }
 .contact_detail li a:hover{
-  color: #D3D3D3;
+  color: #999 !important;
 }
+
 /*Header Style Closed*/
 
 /*  Sticky Navbar Cdoing Start */
 .menubar{
   background: white;
-  height: auto;
-  width: 100%;
+  height: 89px;
+  width: auto;
 }
 @media (min-width: 1200px) {
   .container-fluid {
-    width: 1700px;
+    width: 1850px;
   }
+}
+.navbar-nav li a:hover{
+  color: #5b5b5b;
+}
+.navbar-nav li a{
+  padding: 0 0 0 10px;
+  transform: scale(0.8, 1);
+  display: block;
+  line-height: 50px;
+  white-space: nowrap;
+  border-right-width: 2px;
+  font-weight: 550;
+  transition: 0.5s;
+}
+.nav-link{
+  transform: scale(0.8, 1);
+  display: block;
+  line-height: 40px;
+  white-space: nowrap;
+  border-right-width: 1px;
+  border-style: solid;
+  border-color: #fff;
 }
 .navbar{
   width: 100%;
+  
+}
+.mat-toolbar-row{
+  transition-delay: 0.5s;
 }
 .mat-toolbar-row, .mat-toolbar-single-row {
   display: block;
@@ -60,10 +90,12 @@ a{
   flex-direction: row;
   align-items: center;
   white-space: nowrap;
+  margin-right: 10px;
+  transition-delay: 1s;
 }
 ul li a{
    color: black;
-   font-size: 14px;
+   font-size: 15px;
    font-weight: 400;
    font-family: "gotham", Arial, Tahoma, sans-serif;
 }
@@ -71,7 +103,10 @@ ul li a{
   position: relative;
   z-index: 999999;
 }
-
+.img-siz{
+  width: 300px;
+  margin-left: 40px;
+}
 .sticky {
   position: fixed;
   top:0;
