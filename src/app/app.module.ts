@@ -2,6 +2,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { SlideshowModule } from "ng-simple-slideshow";
 import { AngularFontAwesomeModule } from "angular-font-awesome";
+import { NgImageSliderModule } from "ng-image-slider";
+
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -71,7 +73,8 @@ import { Innovationpage2Component } from './innovationpage2/innovationpage2.comp
     MatProgressSpinnerModule, 
     MatTabsModule,
     MatListModule,
-    NgxPaginationModule
+    NgxPaginationModule,
+    NgImageSliderModule
   ],
   providers: [],
   bootstrap: [AppComponent]

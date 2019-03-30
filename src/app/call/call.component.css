@@ -168,3 +168,82 @@ footer{
     margin-left: 40px; 
   }
   /*Footer Style Closed*/
+
+  /*Copyright CSS Start*/
+@media only screen and (min-width: 1240px){
+  .section_wrapper, .container {
+      max-width: 1900px;
+}
+}
+  .right-copy{
+    font-size: 13.5px;
+    font-family: "PT Sans", Arial, Tahoma, sans-serif;
+    padding: 10px;
+    margin-left: 15px;
+    color: #626262;
+  }
+/*Copyright CSS Closed*/
+
+
+
+.hvr-box,
+.hvr-box * {
+	box-sizing: border-box;
+}
+.hvr-box {
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	max-width: 100%;
+	height: auto;
+}
+.hvr-box img {
+	max-width: 100%;
+}
+.hvr-box #hvrbox-layer_bottom {
+	display: block;
+}
+.hvr-box .hvrbox-layer_top {
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+  background: rgba(33, 33, 33, 0.79);
+  color: #fff;
+  transition: 0.5s;
+  border: 3px solid #8fbc3c;
+}
+.hvr-box:hover .hvrbox-layer_top,
+.hvr-box.active .hvrbox-layer_top {
+	opacity: 1;
+}
+.gren{
+  height: 5px;
+  width: 90px;
+  background: #8fbc3c;
+}
+h4{
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+  transition: 0.5s;
+}
+.hvrbox-text {
+  text-align: left;
+  margin-left: -20px;
+  margin-right: -80px;
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-moz-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}

@@ -8,7 +8,6 @@
   background-color: #8fbc3c;
   height: 47px;
   position: static;
-
 }
 .header-column{
   padding: 0px 60px !important;
@@ -28,10 +27,20 @@ ul{
   float: right;
   color: #666;
   padding: 5px;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+.contact_detail .hovr{
+  float: right;
+  color: #666;
+  padding: 5px;
   font-size: 11px;
   font-family: "gotham", Arial, Tahoma, sans-serif;
-  margin-left: 6px;
+  margin-left: 3px;
   margin-right: 3px;
+}
+.contact_detail .hor{
+  margin-top: -5px;
 }
 a{
   text-decoration: none;
@@ -50,11 +59,33 @@ a{
 }
 @media (min-width: 1200px) {
   .container-fluid {
-    width: 1850px;
+    width: 1820px;
   }
+}
+
+.img-txt{
+  visibility: hidden;
+  font-size: 15px;
+  font-family: serif;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.navbar-brand:hover .img-txt{
+  visibility: visible;
 }
 .navbar-nav li a:hover{
   color: #5b5b5b;
+}
+.navbar-nav{
+  padding: -50px;
 }
 .navbar-nav li a{
   padding: 0 0 0 10px;
@@ -105,10 +136,14 @@ ul li a{
 }
 .img-siz{
   width: 300px;
-  margin-left: 40px;
+  margin-left: 26px;
 }
 .sticky {
   position: fixed;
   top:0;
 }
 /*  Sticky Navbar Cdoing Closed*/
+
+
+
+

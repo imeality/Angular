@@ -289,7 +289,7 @@
 /*Exprt line Coding Closed*/
 
 /*Expert Row Css Start*/
-a{
+a{  
   text-decoration: none;  
   color: white; 
 }
@@ -506,4 +506,16 @@ h2{
 /*Footer Style Closed*/
 
 /*Copyright CSS Start*/
+@media only screen and (min-width: 1240px){
+  .section_wrapper, .container {
+      max-width: 1900px;
+}
+}
+  .right-copy{
+    font-size: 13.5px;
+    font-family: "PT Sans", Arial, Tahoma, sans-serif;
+    padding: 10px;
+    margin-left: 15px;
+    color: #626262;
+  }
 /*Copyright CSS Closed*/
