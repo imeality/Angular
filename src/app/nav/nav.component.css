@@ -142,8 +142,11 @@ ul li a{
   position: fixed;
   top:0;
 }
-/*  Sticky Navbar Cdoing Closed*/
+/*  Sticky Navbar Coding Closed*/
 
+button{
+  color: white;
+}
 
 
 

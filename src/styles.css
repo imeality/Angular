@@ -12,4 +12,9 @@
   font-family: Tahoma;
   src: url("/assets/fonts/Tahoma.ttf");
 }
+@font-face{
+  font-family: Raleway;
+  src: url("/assets/fonts/Raleway-ExtraBold.ttf");
+}
+
 

@@ -1,7 +1,11 @@
 /*Text With Video Coding Start*/
+video{
+  width: 70%;
+  height: 100%;
+}
 .vidtxt{
-  width: 625px;
-  height: 720px;
+  width: 30%;
+  height: 750px;
   background: #0a0101;
   float: right;
 }
@@ -14,7 +18,6 @@
   text-align: left;
   margin-top: 160px;
   margin-left: 23%;
-
 }
 .newpp{
   color: #20a19c;
@@ -261,6 +264,7 @@
 .mostviewed-image{
   padding: 40px;
   margin-left: 40px;
+  margin-bottom: -50px;
 }
 .clsh2{
   font-weight: 600;
@@ -276,9 +280,43 @@
 }
 /*Most Viewed Coding Closed*/
 /*Image Slider Coding Start*/
-/*Image Slider Coding Closed*/
-
-/*Image Slider CSS Coding Start*/
+.slide-txt{
+  color: #161922;
+  font-weight: inherit;
+  font-size: 16px;
+  font-family: "Raleway", Arial, Tahoma, sans-serif;
+  margin: 10px 15px;
+}
+#slid-er{
+  padding-left: 70px;
+  padding-right: 70px;   
+}
+.date-post{
+  display: inline-block;
+  font-size: 11px;
+  color: #aaa;
+  margin-left: 3px;
+  font-style: italic;
+  margin: 10px 15px;
+}
+.carousel-control-prev-icon{
+  margin-left: -180px;
+}
+.carousel-control-next-icon{
+  margin-left: 180px;
+}
+.carousel-item .active{
+  position: relative;
+}
+.slider-content{
+  margin: 10px 15px;
+  color: #696969;
+  font-style: inherit;
+  font-size: 14px;
+}
+.col-3 img{
+  height: 400px;
+}
 /*Image Slider CSS Coding Closed*/
 
 /*Exprt line Coding start*/
@@ -290,7 +328,7 @@
 
 /*Expert Row Css Start*/
 a{  
-  text-decoration: none;  
+  text-decoration: none; 
   color: white; 
 }
 .img-round{
@@ -460,12 +498,15 @@ footer{
   margin-right: 7px;
 }
 .active{
-  position: absolute;
+  position: inherit;
 }
 #activ{
   float: right;
-  margin-left: -50px;
-  margin-top: -23px;
+  margin-right: 200px;
+  margin-top: -46px;
+}
+#activv{
+  margin-left: 190px;
 }
 .idd1{
   text-align: center;

@@ -93,11 +93,80 @@ a{
 .pagination a:hover{
   color: black;
 }
-.active{
+a.active{
   border: 1px solid silver;
   border-radius: 30%;
 }
  /*Grid Image Pagination Coding Closed*/
+
+  /*Before Slider Line Coding Start*/
+  .line-div{
+    height: 10px;
+    background: #7fba3b;
+   }
+   /*Before Slider Line Coding Closed*/
+
+ /*You May Coding Start*/
+ .youalso{
+  padding: 40px;
+  margin-left: 40px;
+}
+.youcls{
+  font-weight: 600;
+  font-family: "Raleway", Arial, Tahoma, sans-serif;
+  font-size: 15px;
+  color: #737373;
+  letter-spacing: 1px;
+}
+.you-line{
+  height: 5px;
+  width: 60px;
+  background: #8cc63f;
+}
+ /*You May Coding Closed*/
+
+ 
+/*Image Slider Coding Start*/
+.slide-txt{
+  color: #161922;
+  font-weight: inherit;
+  font-size: 16px;
+  font-family: "Raleway", Arial, Tahoma, sans-serif;
+  margin: 10px 15px;
+}
+#slid-er{
+  padding-left: 70px;
+  padding-right: 70px;   
+}
+.date-post{
+  display: inline-block;
+  font-size: 11px;
+  color: #aaa;
+  margin-left: 3px;
+  font-style: italic;
+  margin: 10px 15px;
+}
+.carousel-control-prev-icon{
+  margin-left: -180px;
+}
+.carousel-control-next-icon{
+  margin-left: 180px;
+}
+.carousel-item .active{
+  position: relative;
+}
+.slider-content{
+  margin: 10px 15px;
+  color: #696969;
+  font-style: inherit;
+  font-size: 14px;
+}
+.col-3 img{
+  height: 400px;
+}
+/*Image Slider CSS Coding Closed*/
+
+
 
 /*Green-Div Css Start*/
 .divgreen{
